@@ -78,7 +78,7 @@ public class Hora {
 	public boolean setMinutos(int valor) {
 		boolean transaccion = false;
 
-		if (minuto >= 0 && minuto <= 59) {
+		if (valor >= 0 && valor <= 59) {
 			this.minuto = valor;
 			transaccion = true;
 		}
@@ -96,7 +96,7 @@ public class Hora {
 	public boolean setHora(int valor) {
 		boolean transaccion = false;
 
-		if (hora >= 0 && hora <= 23) {
+		if (valor >= 0 && valor <= 23) {
 			this.hora = valor;
 		}
 
