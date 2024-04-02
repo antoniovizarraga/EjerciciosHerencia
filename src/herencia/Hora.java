@@ -17,8 +17,8 @@ public class Hora {
 	protected int minuto;
 
 	/**
-	 * Constructor que recoge los datos pasados como parámetros. Comprueba que los
-	 * valores de entrada sean correctos.
+	 * Constructor que recoge los datos pasados como parámetros. Comprueba si los
+	 * valores de entrada son correctos.
 	 * 
 	 * @param hora
 	 * @param minuto
