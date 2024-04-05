@@ -40,7 +40,7 @@ public class Television extends Electrodomestico {
 			precioBase += temp;
 		}
 		
-		if(sintonizador == true) {
+		if(sintonizador) {
 			precioBase += 50;
 		}
 		
