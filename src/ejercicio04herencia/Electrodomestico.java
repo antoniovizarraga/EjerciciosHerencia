@@ -59,6 +59,12 @@ public class Electrodomestico {
 			this.precioBase = precioBase;
 		}
 		
+		// Creamos el String temporal ya que lo necesitaremos para pasarlo
+		// a mayúsculas (Ya que no podemos editar el atributo).
+		String temp = color;
+		
+		temp = temp.toUpperCase();
+		
 		this.color = comprobarColor(color);
 		this.consumoEnergetico = comprobarConsumoEnergetico(consumoEnergetico);
 		
